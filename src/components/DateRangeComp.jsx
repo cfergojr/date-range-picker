@@ -24,6 +24,7 @@ const DateRangeComp = () => {
         var dates = [];
     
         while (date < endDate) {
+            console.log(date)
             if (isWeekend(date)) dates.push(new Date(date));
             date.setDate( date.getDate() + 1 );
         }
@@ -45,7 +46,7 @@ const DateRangeComp = () => {
 
     // hide calendar on ESC 
     const hideOnEscape = (e) => {
-        console.log(e.key)
+        // console.log(e.key)
         if( e.key === "Escape" ) {
             setOpen(false)
         }
