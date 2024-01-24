@@ -7,7 +7,9 @@ function App() {
         <div className="App">
             <h3>Date Range Select</h3>
             <DateRangeComp />
+
         </div>
+
     );
 }
 

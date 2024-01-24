@@ -32,7 +32,7 @@ const DateRangeComp = () => {
         return dates;
     }
     
-    const disabledDates = calcWeekends(new Date(), addDays(new Date(), 100))
+    const disabledDates = calcWeekends(new Date(), addDays(new Date(), 50))
 
     // open clase
     const [open, setOpen] = useState(false)
